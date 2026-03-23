@@ -258,7 +258,7 @@ export default function Index() {
                 <button className="cta-btn" onClick={() => {
                   const lines = cart.map(item => `• ${item.name} × ${item.qty} — ${item.price * item.qty}₽`).join('\n');
                   const text = `🔥 Новый заказ!\n\n${lines}\n\nИтого: ${finalTotal}₽`;
-                  window.open(`https://wa.me/7398339?text=${encodeURIComponent(text)}`, '_blank');
+                  window.open(`https://wa.me/79637388339?text=${encodeURIComponent(text)}`, '_blank');
                 }}>Оформить заказ</button>
                 <p className="cart-hint">+{Math.floor(finalTotal * 0.05)} баллов начислим за этот заказ</p>
               </div>
