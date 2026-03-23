@@ -81,7 +81,7 @@ const SCHEDULE = [
   { day: "Четверг", open: "11:00", close: "22:00", delivery: "12:00–21:00", isOff: false },
   { day: "Пятница", open: "11:00", close: "23:00", delivery: "12:00–22:00", isOff: false },
   { day: "Суббота", open: "10:00", close: "23:00", delivery: "11:00–22:00", isOff: false },
-  { day: "Воскресенье", open: "", close: "", delivery: "", isOff: true },
+  { day: "Воскресенье", open: "11:00", close: "22:00", delivery: "12:00–21:00", isOff: false },
 ];
 
 const DAYS_SHORT = ["Вс","Пн","Вт","Ср","Чт","Пт","Сб"];
