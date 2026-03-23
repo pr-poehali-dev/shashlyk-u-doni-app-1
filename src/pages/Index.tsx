@@ -138,10 +138,9 @@ export default function Index() {
         <div className="hero-content">
           <div className="hero-badge">🔥 Горячо и сочно</div>
           <h1 className="hero-title">Шашлык<br /><span className="hero-accent">У Дони</span></h1>
-          <p className="hero-sub">Доставка от 60 мин · Минимум 800₽</p>
           <div className="hero-status">
             <span className="status-dot" />
-            <span>Открыто · Доставка до 21:00</span>
+            <span>Открыто</span>
           </div>
         </div>
       </div>
@@ -287,7 +286,7 @@ export default function Index() {
               <div className="order-item">
                 <div className="order-meta">
                   <span className="order-date">15 марта 2026</span>
-                  <span className="order-status order-status--done">Доставлен</span>
+                  <span className="order-status order-status--done">Выполнен</span>
                 </div>
                 <div className="order-desc">Шашлык из баранины × 2, Лаваш × 2</div>
                 <div className="order-price">1 460₽</div>
@@ -295,7 +294,7 @@ export default function Index() {
               <div className="order-item">
                 <div className="order-meta">
                   <span className="order-date">8 марта 2026</span>
-                  <span className="order-status order-status--done">Доставлен</span>
+                  <span className="order-status order-status--done">Выполнен</span>
                 </div>
                 <div className="order-desc">Люля-кебаб × 3, Соус ткемали</div>
                 <div className="order-price">1 560₽</div>
@@ -331,7 +330,6 @@ export default function Index() {
                   ) : (
                     <div className="schedule-times">
                       <span className="schedule-work">{s.open} – {s.close}</span>
-                      <span className="schedule-delivery">🛵 {s.delivery}</span>
                     </div>
                   )}
                 </div>
